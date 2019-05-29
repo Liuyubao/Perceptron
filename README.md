@@ -8,7 +8,6 @@ Implemented the perceptron algorithm
 
 def perceptron(train_ys, train_xs, dev_ys, dev_xs, args):
     weights = np.zeros(NUM_FEATURES)
-    #TODO: implement perceptron algorithm here, respecting args
     N = len(train_xs)
     epoch = N/5
     bestDevWeights = weights
